@@ -8,7 +8,7 @@ import { Button } from './components/Button';
 
 // Placeholder Images Mapping (simulating the user provided images)
 const IMAGES = {
-  START: "https://images.unsplash.com/photo-1542662565-7e4b66bae529?q=80&w=2727&auto=format&fit=crop", // Mountain/Red aesthetic placeholder
+  START: "C:\Users\mdeya\Downloads\Gemini_Generated_Image_rnec96rnec96rnec.png", // Mountain/Red aesthetic placeholder
   BOTIN: "https://upload.wikimedia.org/wikipedia/commons/4/42/Sobrino_de_Bot%C3%ADn_madrid.jpg", // Wiki Commons for Botin
   NURIA: "https://whitestone-gallery.com/cdn/shop/articles/NuriaMora_KV_1578x.jpg?v=1706691763" // Whitestone Gallery Nuria Mora
 };
