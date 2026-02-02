@@ -21,20 +21,27 @@
           background: #991b1b; 
        }
     </style>
-  <script type="importmap">
+    <!-- Import Map para librerías externas -->
+    <script type="importmap">
 {
   "imports": {
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react": "https://esm.sh/react@18.2.0",
+    "framer-motion": "https://esm.sh/framer-motion@10.16.4",
+    "canvas-confetti": "https://esm.sh/canvas-confetti@1.6.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.292.0",
     "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react": "https://esm.sh/react@^19.2.4",
-    "framer-motion": "https://esm.sh/framer-motion@^12.29.2",
-    "canvas-confetti": "https://esm.sh/canvas-confetti@^1.9.4",
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+    "react/": "https://esm.sh/react@^19.2.4/"
   }
 }
 </script>
+    <!-- Babel para traducir TSX en el navegador -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
   <body class="bg-black text-white antialiased">
     <div id="root"></div>
+    
+    <!-- Cargamos el script con tipo text/babel para que Babel lo procese -->
+    <script type="text/babel" data-presets="react,typescript" src="./index.tsx"></script>
   </body>
 </html>
